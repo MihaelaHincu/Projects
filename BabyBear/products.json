@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "name": "Google Pixel 3",
+      "stock": "4",
+      "brand": "Google",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/pixel3.1.png?alt=media&token=b586cd2e-3567-4f7c-a75f-b6969903755a",
+      "price": "3300",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    },
+    {
+      "name": "Google Pixel 2",
+      "stock": "55",
+      "brand": "Google",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/pixel2.1.png?alt=media&token=738a6567-eb30-44f7-ab1c-ae7927b25e18",
+      "price": "2500",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    },
+    {
+      "name": "Google Pixel",
+      "stock": "35",
+      "brand": "Google",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/pixel.1.png?alt=media&token=2fe8ba5c-757f-48c9-bae9-755dafe7a1d6",
+      "price": "1700",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    },
+    {
+      "name": "Power Beats Pro",
+      "stock": "5",
+      "brand": "Apple",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/powerbeats.png?alt=media&token=d8685a3d-3d45-4b91-a22f-22e2dceae1cb",
+      "price": "1400",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    },
+    {
+      "name": "Power Beats 3",
+      "stock": "61",
+      "brand": "Apple",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/powerbeats3.png?alt=media&token=ecc92a4e-f17a-41a0-a785-1409c515c481",
+      "price": "1000",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    },
+    {
+      "name": "Reflect Contour 2",
+      "stock": "8",
+      "brand": "JBL",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/jblcontour.png?alt=media&token=2b60269c-dea4-423c-ae10-700c5a0d63c9",
+      "price": "500",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    },
+    {
+      "name": "Reflect Contour 2",
+      "stock": "8",
+      "brand": "JBL",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proiectfinal-c3768.appspot.com/o/pixel.1.png?alt=media&token=2fe8ba5c-757f-48c9-bae9-755dafe7a1d6",
+      "price": "500",
+      "description": "Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet."
+    }
+  ],
+  "cart": []
+}

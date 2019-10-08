@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProiectFinal</title>
+
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+ 
+
+  <link href="detalii.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../grid.css">
+
+</head>
+
+<body onload="loading();" >
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div>
+      <header class="header-fixed">
+
+        <div class="header-limiter ">
+
+          <h1><a href="../index.html">Baby<span>Bear</span></a></h1>
+
+          <nav>
+            <a href="../index.html">Home</a>
+            <a href="../cart/cart.html"><span id="cartNumber"></span> Cumparaturi</a>
+
+            <a href="../admin/admin.html"> Admin</a>
+          </nav>
+
+        </div>
+
+      </header>
+      <div class="hidden col-lg-9 col-sm-9 col-xs-10 " id="showAdded">Produsul a fost adaugat in cos.</div>
+      <div>
+        <h1 class="space title">Baby<span
+            class="it">Bear</span>
+        </h1>
+      </div>
+
+
+      <div class="wrapper col-lg-9 col-sm-12 col-xs-12 " id="productsContainer">
+          <div class="info ">
+         
+              <h3 style="text-align: center;"><strong>Detalii</strong></h3> <br>
+              <p id="description" style="margin:2%">
+    
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur repudiandae illum est eaque
+                voluptatem modi, quaerat itaque beatae, voluptate sed laborum ratione. Assumenda doloremque nostrum nesciunt
+                maiores, pariatur vitae.
+              </p>
+              <div style="text-align: center;">
+                  <h4 class="left" style="display:inline-block">Pret (lei): </h4><span style="display:inline-block; margin-left:2%;"
+                    id="price" class="right"></span>
+                </div>
+                <h4 style="text-align: center; text-align: center;" id="stock">Stoc:66</h4>
+                <div style=" text-align: center;">
+                    <h4 class="left" style="display:inline-block">Cantitate: </h4> <input type="number" name="quantity" min="1" value="1" style="display:inline-block; width:50px; height: 25px; margin-left:2%;">
+                </div>
+            </div> 
+        <div class="column">
+          <div class="card">
+            <h3 id="name" style="text-align: center;">Numele Produsului</h3>
+            <h4 id="brand" style="text-align: center;">Numele Brandului</h4>
+            <div id="image" style="text-align: center;"><img src=""> </div>
+          </div>
+        </div>
+
+       
+
+      </div>
+      <div id="buybtn" class="col-12" style="text-align: center;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <footer class="footer-distributed space">
+
+        <div class="footer-left">
+
+
+          <a href="https://scoalainformala.ro/" rel="home"><img class="space"
+              src="https://scoalainformala.ro/wp-content/uploads/2019/06/logo_color.png" alt="Școala informală de IT">
+          </a>
+
+          <p class="footer-company-name">Hincu Mihaela &copy; 2019</p>
+        </div>
+
+        <div class="footer-center">
+
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Random</span>Bucuresti,Romania</p>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+0 000 002 0-2</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">support@proiectfinal.com</a></p>
+          </div>
+
+        </div>
+
+        <div class="footer-right">
+
+          <p class="footer-company-about">
+            <span>About the project</span>
+            <p class="footer-company">Icons by<a style="color:white" href="https://icons8.com/icon/91783/babys-room"> Icons8</a></p>
+            <p class="footer-company">Background made by <a style="color:white" href="https://tight.no/">Gjermund Gustavsen</a>
+
+          </p>
+
+
+        </div>
+
+
+      </footer>
+    </div>
+
+
+
+    <script src="detalii.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>

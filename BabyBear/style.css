@@ -1,0 +1,553 @@
+body {
+  font-family: "Muli" !important;
+  overflow-x: hidden;
+  background-image: url(linedpaper.png);
+  }
+
+ 
+         
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.title {
+	text-align:center;
+	margin-top: 20px;
+	font-family: 'Courgette', cursive;
+	text-shadow: 0px 0px 3px white;
+	
+}
+
+
+#about {
+	text-align: center;
+	background-image: url(patch.png);
+	padding:55px;
+    margin-left: 20%;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   
+
+}
+
+.babyicon {
+	text-align: center;
+
+	padding:55px;
+   background-position: center;
+   
+   background-repeat: no-repeat;
+background-image: url("https://img.icons8.com/cotton/150/000000/babys-room.png")
+}
+#about p {
+	font-size: 20px;
+	padding:10px;
+
+}
+#carouselimg {
+	background-image: linear-gradient(rgba(247, 247, 247, 0.144), rgba(255, 255, 255, 0.144));
+	height:870px;
+}
+
+#productsWrapper img, img.space {
+    max-height: 150px;
+    max-width: 150px;
+    height: 100%;
+	margin: auto;
+
+}
+
+.space {
+  padding-bottom: 3%;
+  
+}
+
+
+/* ============= HEADER =============== */
+.header-fixed {
+	background-color:#292c2f;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 75px;
+	color: #ffffff;
+	box-sizing: border-box;
+	top:-100px;
+
+
+}
+
+.header-fixed .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
+
+hr {
+	width: 50%;
+	text-align: center;
+}
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+ h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-fixed .header-limiter nav {
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-fixed .header-limiter nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.header-fixed .header-limiter nav a:hover{
+	opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .header-fixed {
+	padding: 10px 40px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+	display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+	line-height: 28px;
+	font-size: 13px;
+}
+
+@media all and (max-width: 1500px) {
+	#carouselimg {
+		background-image: linear-gradient(rgba(247, 247, 247, 0.144), rgba(255, 255, 255, 0.144));
+		height:auto;
+	}
+	#about {
+		margin-left: auto;
+		margin-right:auto;
+text-align: center;
+background-image:none;
+
+	}
+
+	.babyicon {
+		
+		margin-right: 20%;
+	   background-position: center;
+	   background-size: 80%;
+	   background-repeat: no-repeat;
+	background-image: url("https://img.icons8.com/cotton/150/000000/babys-room.png");
+	}
+
+}
+@media all and (max-width: 1199px) {
+	.babyicon {
+		background-image: none;
+	}
+
+}
+
+@media all and (max-width: 600px) {
+
+	.header-fixed {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-fixed .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-fixed .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-fixed .header-limiter nav a {
+		font-size: 13px;
+	}
+
+	body.fixed .header-fixed {
+		display: none;
+	}
+	.babyicon {
+		background-image: url("https://img.icons8.com/cotton/150/000000/babys-room.png");
+		margin-left:auto;
+		margin-right:auto;
+		background-position: center;
+		
+		background-size: 20%;
+		background-repeat: no-repeat;
+	}
+}
+
+/* ============= FOOTER =============== */
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-distributed .footer-left img {
+  width:100%;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+/* ============== COLOANE ============== */
+
+
+
+.wrapper {
+	margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+	background-image:url(patch2.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 30px 30px 0px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 30px;
+  }
+  
+.column {
+  float: left;
+  
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #F7EFED;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  transition:  0.5s;
+  
+}
+.card:hover{
+	transform: scale(1.07);;
+transition: all 0.5s ease-out;
+
+}
+
+
+.footer-company {
+	font-size: 12px;
+	color: white;
+}
+
+/* BUTTON BUY */
+
+a,button{cursor: pointer;}
+  .raise{
+	  background-color: rgb(211, 199, 203);
+	  color: rgb(0, 0, 0);
+  }  
+  .raise:hover,
+  .raise:focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.25em);
+  }
+
+
+button {  
+  color: var(--color);
+  transition: 0.25s;
+  
+}
+
+button:hover {
+	color:#fff;
+	
+}
+
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+
+/* LOADING */
+#loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #34db87;
+	width: 120px;
+	height: 120px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+	from { bottom:-100px; opacity:0 } 
+	to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+	from{ bottom:-100px; opacity:0 } 
+	to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+	display: none;
+	text-align: center;
+  }
+  /* Loading end */
+
+
+
+
+
+  /* REVIEW */
+
+
+  #cartNumber {
+	margin-left: 6px;
+	margin-top: 6px;
+	font-size: 13px;
+	color: white;
+  }
