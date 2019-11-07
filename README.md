@@ -19,4 +19,4 @@
 →	daca un produs nu are suficient stoc, utilizatorul nu va putea finaliza comanda.
 
 
-- Restaurant: https://mihaelahincu.github.io/CV/Restaurant-master/index.html (unfinished)
+- Restaurant: https://mihaelahincu.github.io/Restaurant/ (unfinished)
