@@ -1,6 +1,6 @@
 # Projects
 - SIIT final project: https://mihaelahincu.github.io/Projects/BabyBear/index.html 
-→	"BabyBear" este un magazin virtual creat pentru a vinde clientilor diverse produse destinate bebelusilor si copiiilor de pana la 5 ani.
+→	"BabyBear" este un proiectul final creat pentru finalizarea cursului de Web Development, din cadrul scolii informale de IT.
 
 →	Website-ul e format din 4 pagini web: <b>pagina principala, pagina de detalii, cosul de cumparaturi, pagina de administrare.</b>
 
