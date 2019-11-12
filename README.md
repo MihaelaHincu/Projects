@@ -20,3 +20,7 @@
 
 
 - Restaurant: https://mihaelahincu.github.io/Restaurant/ (unfinished)
+
+- FlowerShop: I created this basic html&css template to add&learn vue.js // to be added
+
+- About Me: // to be added
