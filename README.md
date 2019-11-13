@@ -23,4 +23,4 @@
 
 - FlowerShop: I created this basic html&css template to add&learn vue.js // to be added
 
-- About Me: // to be added
+- About Me: https://mihaelahincu.github.io/inline/inlineWebsite.html
