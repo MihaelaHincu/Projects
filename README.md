@@ -26,3 +26,5 @@
 →I created this basic html&css template to add&learn vue.js 
 
 - About Me: https://mihaelahincu.github.io/inline/inlineWebsite.html
+
+→ A simple inline website, various informations about me and my aspirations. :)
