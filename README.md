@@ -21,6 +21,7 @@
 
 - Restaurant: https://mihaelahincu.github.io/Restaurant/ (unfinished)
 
-- FlowerShop: I created this basic html&css template to add&learn vue.js // to be added
+- FlowerShop: https://mihaelahincu.github.io/flowershop/index.html 
+→I created this basic html&css template to add&learn vue.js 
 
 - About Me: https://mihaelahincu.github.io/inline/inlineWebsite.html
