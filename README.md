@@ -20,6 +20,21 @@
 
 
 - Restaurant: https://mihaelahincu.github.io/Restaurant/ (unfinished)
+→ Website-ul e format din 6 pagini web:
+-pagina principala
+-pagina de meniu
+-pagina de detalii a preparatelor
+-sectiunea de vinuri
+-pagina de rezervare a unei mese
+-pagina de administrare.
+
+→ Informatiile si imaginile afisate isi au originea in baza de date firebase si se pot modifica sau sterge prin intermediul paginii de admin.
+
+→ baza de date: firebase.
+
+→ lista de produse este realizata in format JSON.
+
+→ cererea catre baza de date se face folosind AJAX.
 
 - FlowerShop: https://mihaelahincu.github.io/flowershop/index.html
 
