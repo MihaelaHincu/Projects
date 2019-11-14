@@ -21,12 +21,19 @@
 
 - Restaurant: https://mihaelahincu.github.io/Restaurant/ (unfinished)
 → Website-ul e format din 6 pagini web:
+<b>
 -pagina principala
+
 -pagina de meniu
+
 -pagina de detalii a preparatelor
+
 -sectiunea de vinuri
+
 -pagina de rezervare a unei mese
+
 -pagina de administrare.
+</b>
 
 → Informatiile si imaginile afisate isi au originea in baza de date firebase si se pot modifica sau sterge prin intermediul paginii de admin.
 
