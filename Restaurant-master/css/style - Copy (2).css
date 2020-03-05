@@ -1,0 +1,320 @@
+.carousel-caption {
+    margin-bottom: 20%;
+    font-family: 'Italianno', cursive;
+    text-shadow: 2px 2px black;
+}
+
+.carousel-caption h3 {
+    font-size: 60px;
+}
+
+.carousel-caption button {
+    font-size: 30px;
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.carousel-caption a:hover {
+    text-decoration: none;
+}
+
+body, html {
+    font-family: 'Muli';
+    height: 100%;
+    margin: 0;
+    background-image: url('dark-wood.jpg')
+}
+
+.icons {
+    height: 25px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.information-wrapper {
+    padding:70px;
+    overflow: hidden;
+    background-image: url('menu/extra_clean_paper.png');
+    border-radius:12px;
+    margin-bottom: -100px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* align */
+
+.alignbox-small {
+    display: inline-block;
+    width: 20%;
+    margin-left: 2%;
+    border: solid black;
+}
+.alignbox-big {
+    display: inline-block;
+    width: 48%;
+    margin-left: 2%;
+    border: solid black;
+}
+.alignbox-big2, .alignbox-big3 {
+    /* AICIAM RAMAS */
+    
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+  
+    
+}
+.alignbox-big3 {
+margin-top:50px;
+
+}
+.alignbox-big3 p {
+margin-top:50px;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+/* hr */
+
+h4 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h4:before, h4:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* hr end */
+
+/* button */
+
+.button {
+    border-radius: 4px;
+    background-color: #c4424279;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 40%;
+}
+
+.button:hover, .button2:hover  {
+    background-color: #7495d379;
+}
+
+.button span, .button2  {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span  {
+    padding-right: 25px;
+}
+
+.button:hover span:after  {
+    opacity: 1;
+    right: 0;
+}
+
+#hidden {
+    display: none;
+}
+
+.top-bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.button2 {
+    border-radius: 4px;
+    background-color: #c4424279;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+/* HERO IMAGE */
+
+.hero-image {
+
+    background-image: linear-gradient(rgba(165, 165, 165, 0.459), rgba(0, 0, 0, 0.5)), url("wine.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text h4 {
+    font-family: Italianno;
+    font-size: 50px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* HERO IMG END */
+
+/* responsive */
+
+@media screen and (min-width:936px) {
+    .alignbox-small, .alignbox-big {
+        display: inline-block;
+        width: auto;
+        float: none;
+        margin-right: 0px;
+        background-color: white;
+        border: solid black;
+    }
+
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 140px;
+    }
+}
+
+/* @media all and (max-width: 736px) {
+    .alignbox {
+        display: inline-block;
+        width: auto;
+        margin-right: 0px;
+        background-color: white;
+        border: solid black;
+    }
+    .button {
+        border-radius: 4px;
+        background-color: #c4424279;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left: 40%;
+    }
+    .carousel-caption button {
+        font-size: 30px;
+        width: 120px;
+        margin-left: 10px;
+    }
+} */
+
+
+/* .alignbox {
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    background-color: white;
+    border: solid black;
+}
+.button {
+    border-radius: 4px;
+    background-color: #c4424279;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 40%;
+}
+.carousel-caption button {
+    font-size: 30px;
+    width: 120px;
+    margin-left: 10px;
+} */
+/* 
+@media all and (max-width: 1199px) { ... } 
+@media all and (max-width: 991px) { ... } 
+@media all and (max-width: 768px) { ... } 
+@media all and (max-width: 575px) { ... } */
+
+
+
+/* loader */
+
+

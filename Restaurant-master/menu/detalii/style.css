@@ -1,0 +1,183 @@
+body, html {
+    font-family: 'Muli';
+    height: 100%;
+    margin: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/background%2Fdark-wood.jpg?alt=media&token=dceec8c4-e983-4d01-b44c-07ae6c665684');
+}
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* align */
+.information {
+    margin-top:50px;
+   padding:20px;
+}
+
+
+/* wrapper */
+#dishesContainer {
+    padding: 70px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/background%2Fextra_clean_paper.png?alt=media&token=2d8c9a53-d2bf-4339-9316-8c023dccd612');
+    border-radius: 12px;
+}
+/* hr */
+
+
+p, span {
+    font-size: 20px;
+}
+h5 {
+    color: rgb(94, 14, 14);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-family: 'Niconne', cursive;
+
+    font-size: 50px;
+}
+
+
+h4.title {
+    overflow: hidden;
+    text-align: center;
+}
+
+h4.title:before, h4.title:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h4.title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h4.title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+/* hr end */
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.top-bottom {
+    margin-top: 120px;
+    margin-bottom:120px;
+}
+
+/* HERO IMAGE */
+
+.hero-image {
+    background-image: linear-gradient(rgba(165, 165, 165, 0.459), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/menubg.jpg?alt=media&token=fab9bfa0-29e2-4981-9093-90ab85c8150d");
+    height: 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.hero-text h4 {
+    font-family: Italianno;
+    font-size: 50px;
+    text-shadow: 2px 0px black;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+
+/* HERO IMG END */
+/* CARDS JSON */
+h5 {
+    text-align: center;
+}
+
+/* loader */
+
+
+.filterDiv {
+
+    display: none;
+  }
+  
+  .show {
+    display: inline-block;
+  }
+  
+  
+  /* Style the buttons */
+  button {
+    border: 2px;
+    border-radius: 5px;
+    margin: 2px;
+    width: 180px;
+    height: 50px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    background-color: silver;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s !important;
+}
+
+.tableBtn:hover {
+    color: white;
+    box-shadow: inset 0px -80px 0px rgb(199, 158, 111);
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.top-bottom {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}

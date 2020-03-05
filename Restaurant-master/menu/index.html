@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700i|Italianno|Niconne&display=swap" rel="stylesheet">
+    <title>Hello, world!</title>
+</head>
+
+
+<!-- loader -->
+
+
+
+<!-- loader end -->
+
+<body onload="getList()">
+
+    <nav class="navbar navbar-expand-md  navbar">
+        <a class="navbar-brand" href="../index.html">
+            <div class="logo light">
+                <img src="https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/logo.png?alt=media&token=e35d6b35-6381-45e9-b8a4-82949a8e8bc1"
+                    alt="" width="88">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="toggle"></div>
+            <div class="toggle"></div>
+            <div class="toggle"></div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link bgcolor" href="../index.html#about">About us <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bgcolor" href="#"><img class="icons"
+                            src="https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/icons%2Ficons8-cutlery-50%20(1).png?alt=media&token=d015dd24-e93a-4b36-b952-4b2c41e8d5f2"
+                            alt=""> Menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bgcolor" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Restaurant
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item bgcolor" href="../reserve/index.html">Book a table <img class="icons"
+                                src="https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/icons%2Ficons8-reservation-48.png?alt=media&token=e3f7733b-450f-4630-9e75-5405b570041a"
+                                alt=""></a>
+                        <div class="dropdown-divider bgcolor"></div>
+                        <a class="dropdown-item bgcolor" href="../wine/index.html">Wine</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <a class="nav-link bgcolor" href="../admin/index.html"> <img class="icons"
+                        src="https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/icons%2Ficons8-administrative-tools-50.png?alt=media&token=a4ba2dac-674b-464e-ba65-9e15d457eb86"
+                        alt=""> ADMIN</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h4>Menu</h4>
+            <p>We cherish fresh ingredients, we cook with pure passion.</p>
+            <button class="tableBtn"> <a href="../reserve/index.html"> Book a table</a></button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container top-bottom ">
+
+        <div id="sortingBtns">
+
+            <button class="btn" onclick="filterSelection('meat')">Meat</button>
+            <button class="btn" onclick="filterSelection('pasta')">Pasta</button>
+            <button class="btn" onclick="filterSelection('fish')">Fish</button>
+            <button class="btn" onclick="filterSelection('desert')">Desert</button>
+            <button class="btn" onclick="filterSelection('garnish')">Garnish</button>
+
+        </div>
+
+        <div id="dishesContainer"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="jvs.js"></script>
+</body>
+
+</html>
+
+<!-- ICONS
+
+<div>Icons made by
+    <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                
+    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                
+    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+
+<!-- <a href="https://icons8.com/icon/53429/home-page">Home Page icon by Icons8</a> -->
+
+https://icons8.com

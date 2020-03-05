@@ -1,0 +1,148 @@
+body, html {
+    font-family: 'Muli';
+    height: 100%;
+    margin: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/background%2Fextra_clean_paper.png?alt=media&token=2d8c9a53-d2bf-4339-9316-8c023dccd612');
+}
+
+th {
+    text-align: center;
+    padding: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+.icons {
+    height: 25px;
+}
+
+.navbar {
+    background-color: rgba(31, 32, 32, 0.637);
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+a.bgcolor:hover {
+    background-color: #b64848;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+a {
+    color: white!important;
+}
+
+a.dropdown-item {
+    color: black!important;
+}
+
+.top-bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* align */
+
+.information {
+    text-align: center;
+}
+
+/* wrapper */
+
+#reserveContainer {
+    padding: 70px;
+}
+
+/* button */
+
+.button {
+    border-radius: 4px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/background%2Fdark-wood.jpg?alt=media&token=dceec8c4-e983-4d01-b44c-07ae6c665684');
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #050e20;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* CARDS JSON */
+
+h5 {
+    text-align: center;
+}
+
+/* loader */
+
+/* Style the buttons */
+
+.btn {
+    padding: 12px 16px;
+    width: 100px;
+    color: white;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/background%2Fdark-wood.jpg?alt=media&token=dceec8c4-e983-4d01-b44c-07ae6c665684');
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: silver;
+}
+
+.btn.active {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/restaurant-80efb.appspot.com/o/background%2Fextra_clean_paper.png?alt=media&token=2d8c9a53-d2bf-4339-9316-8c023dccd612');
+    color: rgb(46, 44, 44);
+    border-right-color: rgb(48, 2, 2);
+    border-left-color: rgb(48, 2, 2);
+}
+
+/* ADMIN */
+
+form {
+    margin: auto;
+    text-align: center;
+}
