@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Muli:100,300,400);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 0.7em;
+    font-family: "Muli", Arial, sans-serif;
+    background:url(norwegian_rose/norwegian_rose.png);
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    padding: 50px 0 40px 0;
+    text-shadow: 2px 2px 4px #000000;;
+}
+.container img {
+    border-radius: 50%;
+    width:120px;
+    box-shadow:  0px 0px 50px 20px rgba(255, 255, 255, 0.521);
+    margin-bottom: 10px;
+}
+.content-box {
+    box-shadow:  0px 0px 100px 5px rgba(85, 85, 85, 0.418);
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(117, 46, 46);
+    border-bottom: 2px solid rgb(117, 46, 46);
+    font-weight: 300;
+    padding: 0 5px;
+    text-indent: 0;
+    -webkit-transition: background-color 0.4s ease, color 0.4s ease;
+    -moz-transition: background-color 0.4s ease, color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+.btn:hover {
+    background-color: rgb(117, 46, 46);
+    color: floralwhite;
+}
+
+.hidden-content {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+/*___ ACTIVE CONTENT ___*/
+.content-box {
+    position: relative;
+    background:rgba(255,255,255,0.5);
+    padding: 10%;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -moz-transition: -moz-transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+.content-box.transitionEffect {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.active-content p, ul {
+    text-indent: 40px;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: rgb(94, 94, 94);
+    line-height: 2em;
+}
+
+.page-transition-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(155, 155, 155, 0.5);
+}
+
+.btn.facebook {
+    color: rgb(32, 99, 153);
+    border-bottom: 2px solid rgb(32, 99, 153);
+}
+.btn.facebook:hover {
+    background-color: rgb(32, 99, 153);
+    color: floralwhite;
+}
+
+.btn.instagram {
+    color: rgb(90, 19, 78);
+    border-bottom: 2px solid rgb(90, 19, 78);
+}
+.btn.instagram:hover {
+    background-color: rgb(90, 19, 78);
+    color: floralwhite;
+}
+
+
+/*___ MEDIA QUERIES ___*/
+@media only screen and (min-width: 750px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
