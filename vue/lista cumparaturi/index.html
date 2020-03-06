@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+
+
+    <div id="card">
+        <h1>{{titlu}}</h1>
+        <input v-on:keypress.enter="adaugaAliment" type="text" id="adauga-aliment">
+        <button v-on:click="adaugaAliment">Adauga Aliment</button>
+
+
+        <ul>
+            <li v-for="(item,index) in aliment">
+                <button v-on:click="stergeAliment(index)">Stergere</button>
+                {{item.text | uppercase}}
+            </li>
+        </ul>
+    </div>
+<hr>
+
+
+
+
+
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script>
+        var cumparaturi = new Vue({
+            el: '#card',
+            data: {
+                titlu: "Lista de cumparaturi",
+                aliment: [
+                    { text: 'Apa' }
+                ]
+            },
+            methods: {
+                adaugaAliment: function () {
+                    var input = document.querySelector('#adauga-aliment')
+                    this.aliment.push({
+                        text: input.value
+                    })
+                },
+                stergeAliment:function(index) {
+                    this.aliment.splice(index,1)
+                }
+            },
+            filters: {
+                uppercase:function(value) {
+                    if(!value) return '';
+                    value = value.toString();
+                    return value.toUpperCase();
+                }
+            }
+            
+        })
+    </script>
+</body>
+
+</html>

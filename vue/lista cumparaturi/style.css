@@ -1,0 +1,76 @@
+body {
+    background: rgb(146, 180, 182);
+    height: 100vh;
+    width: 100vw;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#card {
+    background: #FFF;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+    width: 95%;
+    max-width: 900px;
+}
+
+h1 {
+    color: #3D4852;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+li {
+    display: flex;
+    align-items: center;
+    line-height: 1.75;
+    letter-spacing: .5px;
+    color: #3D4852;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+li:hover {
+    color: rgb(30, 35, 39);
+}
+
+
+
+input {
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    border: 1px solid #F1F5F8;
+    color: #606F7B;
+    padding: .5rem .75rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    margin: .5rem 0
+}
+
+
+
+button {
+    border: none;
+    border-radius: 3px;
+    margin: auto 0;
+    padding: .5rem .75rem;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-size: .9rem;
+    letter-spacing: .5px;
+    transition: all .1s ease-in;
+}
